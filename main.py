@@ -3,11 +3,6 @@ import io
 import tempfile
 from typing import Optional
 
-import whisper
-import torchaudio
-from kokoro import KPipeline
-from langchain.chat_models import init_chat_model
-
 
 def transcribe_audio(audio_data: bytes) -> str:
     """
