@@ -3,3 +3,8 @@ openai
 language-tool-python
 gtts
 pydub
+git+https://github.com/openai/whisper.git
+torchaudio
+soundfile
+langchain
+kokoro>=0.9.2
